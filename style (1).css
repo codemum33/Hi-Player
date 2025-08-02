@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(45deg, #6c5ce7, #00cec9);
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.app-card {
+    background: #fff;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #dfe6e9;
+    color: #636e72;
+}
